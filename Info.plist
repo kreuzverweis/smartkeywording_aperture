@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleHelpBookFolder</key>
+	<string>SK4A.help/Contents/Resources/English.lproj</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Smart Keywording for Aperture - Help</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.kreuzverweis.SK4A</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.6.6</string>
+</dict>
+</plist>

@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033533F512F2EE2700BD7BD3 /* TableViewController.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 033533F412F2EE2700BD7BD3 /* TableViewController.applescript */; };
+		0351071914457D9E00D96346 /* PreferencesText.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0351071814457D9E00D96346 /* PreferencesText.rtf */; };
+		03541AA913027C870075AF77 /* KFSearchFieldC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03541AA813027C870075AF77 /* KFSearchFieldC.m */; };
+		0379F66713180E9B0076E14A /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0379F66613180E9B0076E14A /* Quartz.framework */; };
+		037A8E6F12FB128000830FBD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037A8E6E12FB128000830FBD /* Security.framework */; };
+		037A8E7312FB129200830FBD /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 037A8E7212FB129200830FBD /* libxml2.dylib */; };
+		038E2DB8130D684900085A03 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038E2DB7130D684900085A03 /* IOKit.framework */; };
+		038E2DC8130D68DA00085A03 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 038E2DC7130D68DA00085A03 /* libcrypto.dylib */; };
+		03900C37131E845900E25291 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03900C36131E845900E25291 /* libsqlite3.dylib */; };
+		03DB7347130D789F0054C6FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03DB7346130D789F0054C6FC /* Info.plist */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		3B92A9F90F6ED2CB0023785B /* SK4AAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 3B92A9F80F6ED2CB0023785B /* SK4AAppDelegate.applescript */; };
+		3BC3FB040ED20C27004AC079 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E543E47814F7A935004E2125 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E543E47714F7A935004E2125 /* Icon.icns */; };
+		E543E48514F7AF40004E2125 /* KVCompletionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E543E47A14F7AF40004E2125 /* KVCompletionRequest.m */; };
+		E543E48614F7AF40004E2125 /* KVKeywordService.m in Sources */ = {isa = PBXBuildFile; fileRef = E543E47C14F7AF40004E2125 /* KVKeywordService.m */; };
+		E543E48714F7AF40004E2125 /* KVProposalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E543E47E14F7AF40004E2125 /* KVProposalRequest.m */; };
+		E543E48814F7AF40004E2125 /* KVRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E543E48014F7AF40004E2125 /* KVRequest.m */; };
+		E543E48D14F7AF5E004E2125 /* ApertureInterface.applescript in Sources */ = {isa = PBXBuildFile; fileRef = E543E48A14F7AF5E004E2125 /* ApertureInterface.applescript */; };
+		E543E48E14F7AF5E004E2125 /* ApertureInterfaceSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E543E48C14F7AF5E004E2125 /* ApertureInterfaceSQLite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		033533F412F2EE2700BD7BD3 /* TableViewController.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = TableViewController.applescript; sourceTree = "<group>"; };
+		0351071814457D9E00D96346 /* PreferencesText.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = PreferencesText.rtf; sourceTree = "<group>"; };
+		03541AA713027C870075AF77 /* KFSearchFieldC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFSearchFieldC.h; sourceTree = "<group>"; };
+		03541AA813027C870075AF77 /* KFSearchFieldC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFSearchFieldC.m; sourceTree = "<group>"; };
+		0379F66613180E9B0076E14A /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		037A8E6E12FB128000830FBD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		037A8E7212FB129200830FBD /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		038E2DB7130D684900085A03 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		038E2DC7130D68DA00085A03 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		03900C36131E845900E25291 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		03DB7346130D789F0054C6FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Smart Keywording for Aperture_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Smart Keywording for Aperture_Prefix.pch"; sourceTree = "<group>"; };
+		3B92A9F80F6ED2CB0023785B /* SK4AAppDelegate.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = SK4AAppDelegate.applescript; sourceTree = "<group>"; };
+		3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = /System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Smart Keywording for Aperture-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Smart Keywording for Aperture-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Smart Keywording for Aperture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Keywording for Aperture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E543E47714F7A935004E2125 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		E543E47914F7AF40004E2125 /* KVCompletionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVCompletionRequest.h; path = KeywordService/KVCompletionRequest.h; sourceTree = "<group>"; };
+		E543E47A14F7AF40004E2125 /* KVCompletionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVCompletionRequest.m; path = KeywordService/KVCompletionRequest.m; sourceTree = "<group>"; };
+		E543E47B14F7AF40004E2125 /* KVKeywordService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVKeywordService.h; path = KeywordService/KVKeywordService.h; sourceTree = "<group>"; };
+		E543E47C14F7AF40004E2125 /* KVKeywordService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVKeywordService.m; path = KeywordService/KVKeywordService.m; sourceTree = "<group>"; };
+		E543E47D14F7AF40004E2125 /* KVProposalRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVProposalRequest.h; path = KeywordService/KVProposalRequest.h; sourceTree = "<group>"; };
+		E543E47E14F7AF40004E2125 /* KVProposalRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVProposalRequest.m; path = KeywordService/KVProposalRequest.m; sourceTree = "<group>"; };
+		E543E47F14F7AF40004E2125 /* KVRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVRequest.h; path = KeywordService/KVRequest.h; sourceTree = "<group>"; };
+		E543E48014F7AF40004E2125 /* KVRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVRequest.m; path = KeywordService/KVRequest.m; sourceTree = "<group>"; };
+		E543E48114F7AF40004E2125 /* kvservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kvservices.h; path = KeywordService/kvservices.h; sourceTree = "<group>"; };
+		E543E48214F7AF40004E2125 /* RequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RequestDelegate.h; path = KeywordService/RequestDelegate.h; sourceTree = "<group>"; };
+		E543E48A14F7AF5E004E2125 /* ApertureInterface.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = ApertureInterface.applescript; path = ApertureInterface/ApertureInterface.applescript; sourceTree = "<group>"; };
+		E543E48B14F7AF5E004E2125 /* ApertureInterfaceSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApertureInterfaceSQLite.h; path = ApertureInterface/ApertureInterfaceSQLite.h; sourceTree = "<group>"; };
+		E543E48C14F7AF5E004E2125 /* ApertureInterfaceSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApertureInterfaceSQLite.m; path = ApertureInterface/ApertureInterfaceSQLite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3BC3FB040ED20C27004AC079 /* AppleScriptObjC.framework in Frameworks */,
+				037A8E6F12FB128000830FBD /* Security.framework in Frameworks */,
+				037A8E7312FB129200830FBD /* libxml2.dylib in Frameworks */,
+				038E2DB8130D684900085A03 /* IOKit.framework in Frameworks */,
+				038E2DC8130D68DA00085A03 /* libcrypto.dylib in Frameworks */,
+				0379F66713180E9B0076E14A /* Quartz.framework in Frameworks */,
+				03900C37131E845900E25291 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030721E5143DE0F700A5904F /* kvservices */ = {
+			isa = PBXGroup;
+			children = (
+				E543E47914F7AF40004E2125 /* KVCompletionRequest.h */,
+				E543E47A14F7AF40004E2125 /* KVCompletionRequest.m */,
+				E543E47B14F7AF40004E2125 /* KVKeywordService.h */,
+				E543E47C14F7AF40004E2125 /* KVKeywordService.m */,
+				E543E47D14F7AF40004E2125 /* KVProposalRequest.h */,
+				E543E47E14F7AF40004E2125 /* KVProposalRequest.m */,
+				E543E47F14F7AF40004E2125 /* KVRequest.h */,
+				E543E48014F7AF40004E2125 /* KVRequest.m */,
+				E543E48114F7AF40004E2125 /* kvservices.h */,
+				E543E48214F7AF40004E2125 /* RequestDelegate.h */,
+			);
+			name = kvservices;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E543E47614F7A6A4004E2125 /* Aperture Interface */,
+				030721E5143DE0F700A5904F /* kvservices */,
+				3B92A9F80F6ED2CB0023785B /* SK4AAppDelegate.applescript */,
+				033533F412F2EE2700BD7BD3 /* TableViewController.applescript */,
+				03541AA713027C870075AF77 /* KFSearchFieldC.h */,
+				03541AA813027C870075AF77 /* KFSearchFieldC.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0379F66613180E9B0076E14A /* Quartz.framework */,
+				038E2DC7130D68DA00085A03 /* libcrypto.dylib */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */,
+				037A8E6E12FB128000830FBD /* Security.framework */,
+				037A8E7212FB129200830FBD /* libxml2.dylib */,
+				038E2DB7130D684900085A03 /* IOKit.framework */,
+				03900C36131E845900E25291 /* libsqlite3.dylib */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Smart Keywording for Aperture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* KreuzverweisAnnotator */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = KreuzverweisAnnotator;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Smart Keywording for Aperture_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E543E47714F7A935004E2125 /* Icon.icns */,
+				8D1107310486CEB800E47090 /* Smart Keywording for Aperture-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				03DB7346130D789F0054C6FC /* Info.plist */,
+				0351071814457D9E00D96346 /* PreferencesText.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E543E47614F7A6A4004E2125 /* Aperture Interface */ = {
+			isa = PBXGroup;
+			children = (
+				E543E48A14F7AF5E004E2125 /* ApertureInterface.applescript */,
+				E543E48B14F7AF5E004E2125 /* ApertureInterfaceSQLite.h */,
+				E543E48C14F7AF5E004E2125 /* ApertureInterfaceSQLite.m */,
+			);
+			name = "Aperture Interface";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Smart Keywording for Aperture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Smart Keywording for Aperture" */;
+			buildPhases = (
+				E500E7E11536E10800CDCF92 /* ShellScript */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Keywording for Aperture";
+			productInstallPath = "$(HOME)/Applications";
+			productName = KreuzverweisAnnotator;
+			productReference = 8D1107320486CEB800E47090 /* Smart Keywording for Aperture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Smart Keywording for Aperture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* KreuzverweisAnnotator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Smart Keywording for Aperture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				03DB7347130D789F0054C6FC /* Info.plist in Resources */,
+				0351071914457D9E00D96346 /* PreferencesText.rtf in Resources */,
+				E543E47814F7A935004E2125 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E500E7E11536E10800CDCF92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n# Auto Increment Version Script\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $(date)\" \"Smart Keywording for Aperture-Info.plist\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				3B92A9F90F6ED2CB0023785B /* SK4AAppDelegate.applescript in Sources */,
+				033533F512F2EE2700BD7BD3 /* TableViewController.applescript in Sources */,
+				03541AA913027C870075AF77 /* KFSearchFieldC.m in Sources */,
+				E543E48514F7AF40004E2125 /* KVCompletionRequest.m in Sources */,
+				E543E48614F7AF40004E2125 /* KVKeywordService.m in Sources */,
+				E543E48714F7AF40004E2125 /* KVProposalRequest.m in Sources */,
+				E543E48814F7AF40004E2125 /* KVRequest.m in Sources */,
+				E543E48D14F7AF5E004E2125 /* ApertureInterface.applescript in Sources */,
+				E543E48E14F7AF5E004E2125 /* ApertureInterfaceSQLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../external/mpoauthconnection-read-only/build/Release\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/kvservices-cqadcfmbpbzoevfwuaelqlkbiqez/Build/Products/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smart Keywording for Aperture_Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Smart Keywording for Aperture-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(inherited)",
+					"\"$(SRCROOT)/../../external/mpoauthconnection-read-only/build/Release\"",
+				);
+				PRODUCT_NAME = "Smart Keywording for Aperture";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../external/mpoauthconnection-read-only/build/Release\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/kvservices-cqadcfmbpbzoevfwuaelqlkbiqez/Build/Products/Debug\"",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smart Keywording for Aperture_Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Smart Keywording for Aperture-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(inherited)",
+					"\"$(SRCROOT)/../../external/mpoauthconnection-read-only/build/Release\"",
+				);
+				PRODUCT_NAME = "Smart Keywording for Aperture";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Kreuzverweis Solutions GmbH";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Kreuzverweis Solutions GmbH";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Smart Keywording for Aperture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Smart Keywording for Aperture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
